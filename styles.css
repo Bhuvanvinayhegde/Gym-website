@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/*Title section*/
+.top{
+    background-color: black;
+}
+
+nav ul li{
+    font-family: 'Poppins', sans-serif;
+    padding: 5px 15px;
+}
+
+.logo{
+    width: 60px;
+}
+
+.navbar-brand{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 3rem;
+
+}
+
+.br1{
+    color: #EB1D36;
+}
+
+@media screen and (max-height: 992px) {
+    .carousel-item {
+        height: 30rem;
+    }
+}
+
+@media screen and (max-height: 992px) {
+    .pic {
+        height: 30rem;
+    }
+}
