@@ -13,6 +13,8 @@ nav ul li{
     padding: 5px 15px;
 }
 
+
+
 .logo{
     width: 60px;
 }
@@ -20,7 +22,6 @@ nav ul li{
 .navbar-brand{
     font-family: 'Bebas Neue', cursive;
     font-size: 3rem;
-
 }
 
 .br1{
@@ -29,12 +30,143 @@ nav ul li{
 
 @media screen and (max-height: 992px) {
     .carousel-item {
-        height: 30rem;
+        height: 35rem;
     }
 }
 
 @media screen and (max-height: 992px) {
     .pic {
-        height: 30rem;
+        height: 35rem;
     }
+}
+
+.pic-changer{
+    padding: 3% 7%;
+}
+
+
+
+#middle{
+    position: relative;
+}
+
+.cont{
+    display: inline-block;
+    
+}
+
+.pop{
+    position: relative;
+    padding: 3% 7%;
+    line-height: 2;
+}
+
+.pclass{
+    width: 70%;
+
+}
+
+p{
+    font-family: 'Montserrat', sans-serif;
+}
+
+h3{
+    padding-bottom: 25px;
+    font-weight: bold;
+    font-size: 2rem;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.con1{
+    font-size: 1.7rem;
+    font-weight: bold;
+    font-family: 'Teko', sans-serif;
+}
+
+button{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.sec{
+    padding-bottom: 4% ;
+}
+
+.first {
+    padding-bottom: 4%;
+}
+
+.thi {
+    padding-bottom: 4%;
+}
+
+.four {
+    padding-bottom: 4%;
+}
+
+.about{
+    color: grey;
+}
+
+#testimonials{
+    background-color: black;
+    color: white;
+    text-align: center;
+    
+}
+
+.items1{
+    padding: 7% 15%;
+}
+
+.testi {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.texti{
+    height: 27rem;
+}
+
+
+/* plans */
+.head{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 3rem;
+    padding-bottom: 10px;
+}
+
+#plans{
+    margin: 3% 7%;
+}
+
+.spec{
+    font-size: 2rem;
+}
+
+.card-body{
+    text-align: center;
+}
+
+strong{
+    font-size: 1.2rem;
+}
+
+/*----------------footer-----------------------*/
+
+#footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 1.5%;
+}
+
+.fa-brands{
+    padding: 5px 15px;
+    color: white;
+}
+
+.fa-brands:hover{
+    color: red;
+    transition: .4s;
 }
